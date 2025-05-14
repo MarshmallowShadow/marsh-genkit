@@ -3,6 +3,7 @@ import { PlannerState } from "./types";
 import { actPrompt, initialPlanPrompt, replanPrompt } from "./prompts";
 import { ai } from "./config";
 
+// Source: https://gist.github.com/pavelgj/4473b72d4cd5f5178bc5b188551c8773
 export const planAndExecute = async () => {
   ai.defineFlow(
     { name: "plan-and-execute", inputSchema: z.string() },
