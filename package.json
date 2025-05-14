@@ -1,0 +1,25 @@
+{
+  "name": "marsh-genkit",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && node dist/index.js",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.8.0",
+    "dotenv": "^16.5.0",
+    "genkit": "^1.8.0",
+    "genkit-cli": "^1.8.0",
+    "genkitx-ollama": "^1.8.0",
+    "genkitx-openai": "^0.22.3",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
